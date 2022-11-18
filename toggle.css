@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+.toggle{
+    width: 80px;
+    height: 40px;
+     background: #eee;
+    border-radius: 50px;
+    margin: auto;
+    display: block;
+    padding: 2.5px;
+    transition: .3s;
+    user-select: none;
+}
+.circle{
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    background: #fff;
+    transition: 0.5s;
+  
+}
+#check{
+    display: none;
+}
+#check:checked + .toggle{
+    background: #27ff27;
+
+}
+#check:checked + .toggle .circle{
+    transform: translateX( 40px);
+}

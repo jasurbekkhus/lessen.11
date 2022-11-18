@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.collection{
+    width: 100%;
+    height: 70px;
+    background: dodgerblue;
+    display: flex;
+    align-items: center;
+    padding: 0 5%;
+}
+.item{
+    margin-right: 50px;
+    list-style: none;
+}
+.item:first-child{
+    color: red;
+}
+.item:nth-child(2){
+    color: blue;
+}
+.item:nth-child(3){
+    color: gold;
+}
+.item:nth-child(5)  button{
+    background: red;
+}
+.table{
+    width: 70%;
+    margin: auto;
+    border-collapse: collapse;
+}
+.table th,
+.table td{
+    border: 1px solid dodgerblue;
+    padding: 10px;
+}
+.table th{
+    background: dodgerblue;
+    color: #fff;
+    text-align: left;
+}
+/*  odd = har toq childga */
+/*  even = har juft childga */
+.table tbody tr:nth-child(even){
+    background: #e3f1ff;
+}
+.table tbody tr:nth-child(3) td:nth-child(3){
+    background: red;
+}

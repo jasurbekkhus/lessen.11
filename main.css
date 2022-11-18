@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.container{
+    width: 80%;
+    height: 500px;
+    border: 2px solid red;
+    margin: auto;
+}
+.container p{
+    color: dodgerblue;
+    border: 1px solid dodgerblue;
+    display: inline;
+}
+.container span{
+    color: green;
+    border:  1px solid green;
+    display: block;
+}
+/*  inline = width , height , padding , margin , ishlamaydi */
+.box{
+    width: 50px;
+    height: 50px;
+    border:  1px solid brown;
+    display: inline-block;
+}
+.hide{
+    width: 200px;
+    height: 50px;
+    background: blue;
+    display: none;
+}
+/* 
+        DISPLEY
+        1. block
+        2. inline
+        3. inline-block
+        4. none
+        5. flex
+*/
+.main{
+    width: 80%;
+    height: 300px;
+    border: 1px solid red;
+    margin: auto;
+}
+/*  > = only child */
+/*  + = only  one neighbor */
+/*  ~ = only all  neighbor */
+.main  div p{
+    color: red  ;
+}
